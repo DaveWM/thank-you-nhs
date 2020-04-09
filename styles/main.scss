@@ -1,0 +1,51 @@
+// Your variable overrides
+$primary: #337ab7;
+$font-family-sans-serif: Roboto, sans-serif;
+
+// Bootstrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body, html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  background-image: url("https://media.istockphoto.com/photos/blue-sky-background-and-white-clouds-soft-focus-and-copy-space-picture-id1128410927?k=6&m=1128410927&s=170667a&w=0&h=1iSoGMPp6fFXmr7gX0j-uuxzlcrBN1a1GZy0vx6V78M=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  flex: 1;
+  padding-top: 30px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  justify-content: stretch;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 75px;
+  color: white;
+  text-shadow: 3px 3px 15px gray;
+  margin-bottom: 45px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.rainbow {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+}
