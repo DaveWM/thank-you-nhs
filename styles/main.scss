@@ -12,13 +12,24 @@ body, html {
   display: flex;
 }
 
+@keyframes slide-background {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}
+
 body {
   flex-direction: column;
   align-items: center;
   justify-content: stretch;
-  background-image: url("https://media.istockphoto.com/photos/blue-sky-background-and-white-clouds-soft-focus-and-copy-space-picture-id1128410927?k=6&m=1128410927&s=170667a&w=0&h=1iSoGMPp6fFXmr7gX0j-uuxzlcrBN1a1GZy0vx6V78M=");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("/images/clouds.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  animation: 60s linear slide-background;
+  animation-iteration-count: infinite;
 }
 
 .main {
@@ -34,11 +45,15 @@ body {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 85px;
   color: white;
-  text-shadow: 3px 3px 15px gray;
+  text-shadow: 5px 5px 12px gray;
   margin-bottom: 45px;
   font-family: 'Indie Flower', cursive;
+  padding: 20px;
+  border-radius: 8px;
+  background: radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
+
 }
 
 .rainbow {
