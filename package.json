@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaveWM/lobster-writer-landing-page.git"
+    "url": "git+https://github.com/DaveWM/thank-you-nhs.git"
   },
   "author": "David Martin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DaveWM/lobster-writer-landing-page/issues"
+    "url": "https://github.com/DaveWM/thank-you-nhs/issues"
   },
-  "homepage": "https://github.com/DaveWM/lobster-writer-landing-page#readme",
+  "homepage": "https://github.com/DaveWM/thank-you-nhs#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "imagemin-cli": "^5.1.0",
