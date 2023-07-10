@@ -23,7 +23,7 @@
   "homepage": "https://github.com/DaveWM/thank-you-nhs#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "imagemin-cli": "^5.1.0",
+    "imagemin-cli": "^7.0.0",
     "livereload": "^0.9.1",
     "sass": "^1.25.1-test.1"
   }
